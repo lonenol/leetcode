@@ -1,7 +1,6 @@
 package com.lone.leetcode.k
 
 /**
- * @author liujinlong
  * @date  2018/8/20
  */
 class SolutionTwoSum {
