@@ -12,7 +12,7 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
  */
-class SolutionAddTwoNum {
+class Solution2 {
 
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val result =  ListNode(-1)
@@ -38,7 +38,7 @@ class SolutionAddTwoNum {
 }
 
 fun main(args: Array<String>) {
-    val solutionTwoSum = SolutionAddTwoNum()
+    val solutionTwoSum = Solution2()
 
     var result = solutionTwoSum.addTwoNumbers(create(0), create(9, 1, 6))
     while (result != null) {

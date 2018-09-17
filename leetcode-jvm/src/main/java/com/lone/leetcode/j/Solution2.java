@@ -10,7 +10,7 @@ package com.lone.leetcode.j;
  * <p>
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4) Output: 7 -> 0 -> 8 Explanation: 342 + 465 = 807.
  */
-public class SolutionAddTwoSum {
+public class Solution2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 

@@ -17,7 +17,7 @@ import java.util.Set;
  * return [0, 1].
  * @date 2018/8/20
  */
-public class SolutionTwoSum {
+public class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>(nums.length);
         for (int i = 0; i < nums.length; i++) {
