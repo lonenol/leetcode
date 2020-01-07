@@ -1,6 +1,5 @@
 package com.lone.leetcode.k
 
-import sun.security.util.Length
 
 /**
  * https://leetcode.com/problems/longest-palindromic-substring/description/
