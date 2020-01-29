@@ -16,4 +16,15 @@ public class ListNode {
         }
         return dump.next;
     }
+
+    //@Override
+    //public String toString() {
+    //    StringBuilder sb = new StringBuilder("ListNode:");
+    //    ListNode head = this;
+    //    while (head != null) {
+    //        sb.append(head.val).append("  ");
+    //        head = head.next;
+    //    }
+    //    return sb.toString();
+    //}
 }

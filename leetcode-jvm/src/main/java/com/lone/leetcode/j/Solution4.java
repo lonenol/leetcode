@@ -5,7 +5,11 @@ package com.lone.leetcode.j;
  * @date 2018/9/11
  */
 class Solution4 {
+
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        return 0.01d;
+    }
+    public double findMedianSortedArrays_1(int[] nums1, int[] nums2) {
         int[] merged = merge(nums1,nums2);
         int first,second;
         int total = merged.length;
