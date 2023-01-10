@@ -6,7 +6,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import jdk.nashorn.internal.objects.ArrayBufferView;
 
 /**
  * https://leetcode-cn.com/problems/group-anagrams/
