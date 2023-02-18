@@ -6,6 +6,30 @@ package com.lone.leetcode.j;
  */
 public class Solution52 {
 
+    private int count = 0;
+
+    public int totalNQueens(int n) {
+       if(n < 1) return 0;
+        dfs(n, 0, 0, 0, 0);
+       return count;
+    }
+
+    private void dfs(int n, int row, int cols, int minor, int main) {
+        if(row >=n) {
+            count++;
+            return;
+        }
+        int bits = (~(cols | minor | main)) & ((1 << n) - 1);
+        while (bits > 0) {
+            int p = bits & -bits;
+            dfs(n, row + 1, cols | p, (minor | p) << 1, (main | p) >> 1);
+            bits = bits & (bits - 1);
+        }
+    }
+
+
+
+
     private int num;
     private int[] queues;
     private int[] rows;
@@ -13,7 +37,7 @@ public class Solution52 {
     private int[] minor;
     int result = 0;
 
-    public int totalNQueens(int n) {
+    public int totalNQueens_basic(int n) {
         num = n;
         queues = new int[n];
         rows = new int[n];

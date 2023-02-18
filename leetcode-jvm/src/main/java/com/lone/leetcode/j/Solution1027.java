@@ -24,7 +24,7 @@ import java.util.List;
  *   [15,7]
  * ]
  */
-public class Solutionnnn1027 {
+public class Solution1027 {
 
 
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
