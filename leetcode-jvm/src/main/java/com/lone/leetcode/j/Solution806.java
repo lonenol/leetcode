@@ -1,8 +1,6 @@
 package com.lone.leetcode.j;
 
-import java.util.HashSet;
 import java.util.Random;
-import java.util.Set;
 
 public class Solution806 {
     public int[] numberOfLines(int[] widths, String s) {
@@ -18,7 +16,6 @@ public class Solution806 {
                 curLength += cLength;
             }
         }
-        Set<Integer> set = new HashSet<>();
         Random random = new Random();
         random.nextInt();
 

@@ -32,8 +32,6 @@ public class Solution1033 {
 
     public static void main(String[] args) {
         Solution1033 solution1033 = new Solution1033();
-        int[] arr = {4, 3, 2,};
         solution1033.numMovesStones(4, 3, 2);
-
     }
 }

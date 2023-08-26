@@ -69,9 +69,9 @@ public class Solution137 {
             -401451, -216555, -917279, -457533, -852036, -457533, -177656, -2147483646, -177656, -917279, -473874,
             -852036, -917279, -216555, -814645, 2147483645, 2147483645, -814645, 2147483645, -216555,-2147483648};
         Solution137 solution137 = new Solution137();
-        int[] test = solution137.getKSysNumFromNum(-2147483648, 3);
+        int[] test = Solution137.getKSysNumFromNum(-2147483648, 3);
         System.out.println(solution137.singleNumber(arr));
-        System.out.println(solution137.getNumFromKSysNum(test, 3));
+        System.out.println(Solution137.getNumFromKSysNum(test, 3));
         //System.out.println(solution137.getNumFromKSysNum(solution137.getKSysNumFromNum(-2147483648,3),3));
 
     }

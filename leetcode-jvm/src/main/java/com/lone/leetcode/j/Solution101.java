@@ -1,7 +1,5 @@
 package com.lone.leetcode.j;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * https://leetcode-cn.com/problems/symmetric-tree/

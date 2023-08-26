@@ -43,15 +43,6 @@ public class Solution188 {
         return dp0;
     }
 
-    private void print(int[][][] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print("第"+ i +"天:");
-            for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(j + "次 :" + arr[i][j][0] + "...." + arr[i][j][1] + "           ") ;
-            }
-            System.out.println();
-        }
-    }
     public static void main(String[] args) {
         Solution188 solution188 = new Solution188();
         //System.out.println(solution188.maxProfit(2, new int[] {2, 4, 1}));
